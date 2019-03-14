@@ -18,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
     private final String FILENAME_MILL = "millTime";
 
     /* 距离上次打开APP时间 */
-//    private final int FLAG_MORE = 0x01;// 超过半年
-//    private final int FLAG_MONTH = 0x02;// 1个月-6个月
-//    private final int FLAG_DAY = 0x03; // 1 天-1个月
-//    private final int FLAG_HOUR = 0x04;// 1天以下
+    private final int FLAG_MORE = 0x01;// 超过半年
+    private final int FLAG_MONTH = 0x02;// 1个月-6个月
+    private final int FLAG_DAY = 0x03; // 1 天-1个月
+    private final int FLAG_HOUR = 0x04;// 1天以下
 
 
     @Override
